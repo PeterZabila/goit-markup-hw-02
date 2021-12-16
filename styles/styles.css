@@ -1,0 +1,48 @@
+:root {
+  --base-font: Roboto, sans-serif;
+  --base-font-color: #757575;
+  --second-font-color: #2196F3;
+  --title-font-color: #212121;
+}
+
+body {
+  background-color: white;
+  font-family: var(--base-font);
+}
+
+.logo-title {
+  color: var(--second-font-color);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  cursor: pointer;
+  font-family: Raleway;
+}
+
+.logo-title.studio-span {
+  color: var(--title-font-color);
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--title-font-color);
+  font-family: var(--base-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-item:hover, .nav-item:focus {
+  color: var(--second-font-color);
+}
+
+.nav-item
+
+.nav-item.studio-item {
+  color: var(--second-font-color);
+}
