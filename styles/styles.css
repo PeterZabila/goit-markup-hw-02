@@ -41,8 +41,34 @@ body {
   color: var(--second-font-color);
 }
 
-.nav-item
-
 .nav-item.studio-item {
   color: var(--second-font-color);
+}
+
+.contact-mail, .contact-tel {
+  color: var(--base-font-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.17;
+  font-weight: 500;
+}
+
+.contact-mail:hover, .contact-mail:focus,
+.contact-tel:hover, .contact-tel:focus
+{
+  color: var(--second-font-color);
+}
+
+.hero {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
