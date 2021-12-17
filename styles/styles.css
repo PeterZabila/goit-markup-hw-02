@@ -72,3 +72,125 @@ body {
   letter-spacing: 0.06em;
   color: #FFFFFF;
 }
+
+.button {
+  background-color: var(--second-font-color);
+  font-family: var(--base-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  background-color:  #188CE8;
+}
+
+.advant {
+  list-style-type: none;
+}
+
+.advant-item-title {
+  font-family: var(--base-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.advant-item {
+  font-family: var(--base-font);
+}
+
+.advant-item-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--base-font-color);
+}
+
+.wwd-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+}
+
+.wwd-item {
+  list-style-type: none;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+}
+
+.team-item {
+  list-style-type: none;
+}
+
+.team-name {
+  color: var(--title-font-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--base-font-color);
+}
+
+
+.footer {
+  background-color: #2F303A;;
+}
+.footer-logo-span {
+  color: white;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  font-style: normal;
+}
+
+.footer-address, .footer-mail, 
+.footer-tel {
+  text-decoration: none;
+}
+
+.footer-mail, .footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+/* .address-info {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+ .addres-info.mail, .addres-info.tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.addres-info.address {
+  color: #FFFFFF;
+}
+ */
