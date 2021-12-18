@@ -2,98 +2,100 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta descrition="Страница портфолио">
+    <meta descrition="Главная страница">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/portfolio.css">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:700" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet" type="text/css">
-    <title>Портфолио</title>
+    <title>Студия</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
   <body>
     <header>
-        <!-- logo -->
-          <a class="title-main" href="./index.html">Web<span class="title">Studio</span></a>
-        <!-- main nav -->
-        <nav class="nav">
-          <ul class="nav-ul">
-            <li class="nav-li"><a class="nav-li-stud" href="">Студия</a></li>
-            <li class="nav-li"><a class="nav-li-port" href="">Портфолио</a></li>
-            <li class="nav-li"><a class="nav-li-cont"href="">Контакты</a></li>
-          </ul>
-        </nav>
-        <!-- contacts -->
-        <div class="contacts">
-          <a class="cont-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="cont-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
+      <!-- logo -->
+      <div class="logo"> 
+        <a class="logo-title" href="./index.html">Web<span class="logo-title studio-span">Studio</span></a>
+      </div>
+
+      <!-- main nav -->
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a class="nav-item studio-item" href="">Студия</a></li>
+          <li><a class="nav-item portfolio" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-item" href="">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <!-- contacts -->
+      <div class="contact">
+        <a class="contact-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="contact-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </header>
  
       <main>
-          <section class="portfolio">
-          <nav>
-              <ul class="port-nav-items">
-                  <li><button class="port-nav-item all" type="button">Все</button></li>
-                  <li><button class="port-nav-item web" type="button">Веб-сайты</button></li>
-                  <li><button class="port-nav-item app" type="button">Приложения</button></li>
-                  <li><button class="port-nav-item design" type="button">Дизайн</button></li>
-                  <li><button class="port-nav-item market" type="button">Маркетинг</button></li>
+          <nav class="filter">
+              <ul class="filter-items">
+                  <li><button class="filter-item all" type="button">Все</button></li>
+                  <li><button class="filter-item" type="button">Веб-сайты</button></li>
+                  <li><button class="filter-item" type="button">Приложения</button></li>
+                  <li><button class="filter-item" type="button">Дизайн</button></li>
+                  <li><button class="filter-item" type="button">Маркетинг</button></li>
               </ul>
           </nav>
       
-          <ul class="port-list">
-              <li class="li-port tech">
+          <ul class="portfolio-items">
+              <li class="portfolio-item">
                   <img src="./images/port1.jpg" alt="Технокряк" width="370">
-                  <h3 class="li-port-title">Технокряк</h>
-                  <p class="li-port-desciption">Веб-сайт</p>
+                  <h3 class="portfolio-title">Технокряк</h>
+                  <p class="portfolio-description">Веб-сайт</p>
               </li>
-              <li class="li-port poster">
+              <li class="portfolio-item">
                 <img src="./images/port2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-                  <h3 class="li-port-title">Постер New Orlean vs Golden Star</h>
-                  <p class="li-port-desciption">Дизайн</p>
+                  <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h>
+                  <p class="portfolio-description">Дизайн</p>
               </li>
-              <li class="li-port rest">
+              <li class="portfolio-item">
                 <img src="./images/port3.jpg" alt="Ресторан Seafood" width="370">
-                  <h3 class="li-port-title">Ресторан Seafood</h>
-                  <p class="li-port-desciption">Приложение</p>
+                  <h3 class="portfolio-title">Ресторан Seafood</h>
+                  <p class="portfolio-description">Приложение</p>
               </li>
-              <li class="li-port project">
+              <li class="portfolio-item">
                 <img src="./images/port4.jpg" alt="Проект Prime" width="370">
-                  <h3 class="li-port-title">Проект Prime</h>
-                  <p class="li-port-desciption">Маркетинг</p>
+                  <h3 class="portfolio-title">Проект Prime</h>
+                  <p class="portfolio-description">Маркетинг</p>
               </li>
-              <li class="li-port boxes"> 
+              <li class="portfolio-item"> 
                 <img src="./images/port5.jpg" alt="Проект Boxes" width="370">
-                  <h3 class="li-port-title">Проект Boxes</h>
-                  <p class="li-port-desciption">Приложение</p>
+                  <h3 class="portfolio-title">Проект Boxes</h>
+                  <p class="portfolio-description">Приложение</p>
               </li>
-              <li class="li-port inspire">
+              <li class="portfolio-item">
                 <img src="./images/port6.jpg" alt="Inspiration has no Borders" width="370">
-                  <h3 class="li-port-title">Inspiration has no Borders</h>
-                  <p class="li-port-desciption">Веб-сайт</p>
+                  <h3 class="portfolio-title">Inspiration has no Borders</h>
+                  <p class="portfolio-description">Веб-сайт</p>
               </li>
-              <li class="li-port edition">
+              <li class="portfolio-item">
                 <img src="./images/port7.jpg" alt="Издание Limited Edition" width="370">
-                  <h3 class="li-port-title">Издание Limited Edition</h>
-                  <p class="li-port-desciption">Дизайн</p>
+                  <h3 class="portfolio-title">Издание Limited Edition</h>
+                  <p class="portfolio-description">Дизайн</p>
               </li>
-              <li class="li-port lab">
+              <li class="portfolio-item">
                 <img src="./images/port8.jpg" alt="роект LAB" width="370">
-                  <h3 class="li-port-title">Проект LAB</h>
-                  <p class="li-port-desciption">Маркетинг</p>
+                  <h3 class="portfolio-title">Проект LAB</h>
+                  <p class="portfolio-description">Маркетинг</p>
               </li>
-              <li class="li-port busy">
+              <li class="portfolio-item">
                 <img src="./images/port9.jpg" alt="Growing Business" width="370">
-                  <h3 class="li-port-title">Growing Business</h>
-                  <p class="li-port-desciption">Приложение</p>
+                  <h3 class="portfolio-title">Growing Business</h>
+                  <p class="portfolio-description">Приложение</p>
               </li>
           </ul>
-        </section>
+     
     </main>
-    <footer class="foot">
-        <a class="footer-logo" href="./index.html">Web<span class="footer-logo-style">Studio</span></a>
+    <footer class="footer">
+      <a class="logo-title" href="./">Web<span class="footer-logo-span">Studio</span></a>
       <address>
         <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
         <a class="footer-mail" href="mailto:info@example.com">info@example.com</a>

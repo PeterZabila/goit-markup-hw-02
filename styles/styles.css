@@ -194,3 +194,49 @@ body {
   color: #FFFFFF;
 }
  */
+
+ .filter-items {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+ }
+
+ .filter-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #F5F4FA;
+  border-radius: 4px;
+ }
+
+ .filter-item:hover, .filter-item:focus {
+   cursor: pointer;
+ }
+
+ .filter-item:active {
+   background: var(--second-font-color);
+   color: #FFFFFF;
+ }
+
+ .portfolio-items {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+ }
+
+ .portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2.0;
+  letter-spacing: 0.06em;
+  color: var(--title-font-color);
+ }
+
+ .portfolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--base-font-color);
+ }
