@@ -40,9 +40,6 @@ body {
 .nav-item:hover,
 .nav-item:focus {
   color: var(--second-font-color);
-  text-decoration: underline;
-  text-decoration-color: var(--second-font-color);
-  color: var(--title-font-color);
 }
 
 .nav-item:active {
@@ -56,15 +53,6 @@ body {
   font-size: 14px;
   line-height: 1.17;
   font-weight: 500;
-}
-
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-tel:hover,
-.contact-tel:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--second-font-color);
-  color: var(--title-font-color);
 }
 
 .contact-mail:active,
@@ -99,6 +87,7 @@ body {
 
 .button:hover {
   background-color: #188ce8;
+  cursor: pointer;
 }
 
 .advant {
@@ -193,14 +182,6 @@ body {
   font-style: normal;
 }
 
-.footer-mail:hover,
-.footer-mail:focus,
-.footer-tel:hover,
-.footer-mail:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--second-font-color);
-}
-
 /* .address-info {
   font-size: 14px;
   line-height: 1.71;
@@ -237,8 +218,6 @@ body {
 .filter-item:hover,
 .filter-item:focus {
   cursor: pointer;
-  text-decoration: underline;
-  text-decoration-color: var(--second-font-color);
 }
 
 .filter-item:active {
